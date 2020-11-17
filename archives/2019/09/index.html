@@ -6,21 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>java基础及部分语法 | SFBlog</title>
+  <title>Archives: 2019/9 | SFBlog</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="本篇文章为笔者学习java时候记录的基础语法笔记，希望能互相交流，互相进步">
-<meta property="og:type" content="article">
-<meta property="og:title" content="java基础及部分语法">
-<meta property="og:url" content="http://yoursite.com/2019/02/25/java%E5%9F%BA%E7%A1%80%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%AD%E6%B3%95/index.html">
+  <meta name="description" content="个人技术站">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SFBlog">
+<meta property="og:url" content="http://yoursite.com/archives/2019/09/index.html">
 <meta property="og:site_name" content="SFBlog">
-<meta property="og:description" content="本篇文章为笔者学习java时候记录的基础语法笔记，希望能互相交流，互相进步">
+<meta property="og:description" content="个人技术站">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2019-02-25T10:14:47.000Z">
-<meta property="article:modified_time" content="2020-09-13T11:40:19.961Z">
 <meta property="article:author" content="三分儿半">
-<meta property="article:tag" content="java,基础">
+<meta property="article:tag" content="随笔,java">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="SFBlog" type="application/atom+xml">
@@ -204,264 +202,54 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-java基础及部分语法" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
+            
+  
+  
     
-      <header class="article-header">
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	
+<a href="/2019/09/05/equals%E6%96%B9%E6%B3%95%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" class="archive-article-date">
+        <time datetime="2019-09-05T03:46:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-05</time>
+</a>
+
+        </div>
+    	 
   
+    <h1 itemprop="name">
+	
+	  <a class="archive-article-title" href="/2019/09/05/equals%E6%96%B9%E6%B3%95%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" target="_blank">equals方法的注意事项</a>
   
-    <h1 class="article-title" itemprop="name">
-      java基础及部分语法
     </h1>
   
 
 
-  
-  
-<a href="/2019/02/25/java%E5%9F%BA%E7%A1%80%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%AD%E6%B3%95/" class="archive-article-date">
-        <time datetime="2019-02-25T10:14:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
-</a>
+        <div class="article-info info-on-right">
+          
+          
 
-  
-  
-    
-<div style="margin-top:10px;">
-  <span class="post-time">
-    <span class="post-meta-item-icon">
-      <!-- fonts.scss -->
-      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
-      <i class="icon-statistics"></i>
-      <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">754字</span>
-    </span>
-  </span>
-
-  <span class="post-time">
-    &nbsp; | &nbsp;
-    <span class="post-meta-item-icon">
-      <i class="icon-book icon"></i>
-      <span class="post-meta-item-text"> 阅读时长≈</span>
-      <span class="post-count">2分</span>
-    </span>
-  </span>
-</div>
-
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p>本篇文章为笔者学习java时候记录的基础语法笔记，希望能互相交流，互相进步</p>
-<a id="more"></a>
-<p>java的八大数据类型<br>byte short int long float double char boolean </p>
-<h2 id="分支语句和循环语句"><a href="#分支语句和循环语句" class="headerlink" title="分支语句和循环语句"></a>分支语句和循环语句</h2><p>1.if else （if elseif else）分支语句</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">if (关系表达式1) &#123;   </span><br><span class="line">    语句体1; </span><br><span class="line">    &#125; elseif(关系表达式2) &#123;</span><br><span class="line">    语句体2;</span><br><span class="line">    &#125; else&#123;</span><br><span class="line">        语句体3;</span><br><span class="line">    &#125;</span><br><span class="line">表达式1的值为true 执行语句体1，如果为false执行语句体2,表达式2的值为true 执行语句体2，如果为false执行语句体3.（依次类推）</span><br></pre></td></tr></table></figure>
-<p>2.switch 分支语句(值得注意的是case穿透现象)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">switch(表达式) &#123;   </span><br><span class="line">     case 值1：    </span><br><span class="line">        语句体1;</span><br><span class="line">        break; </span><br><span class="line">    case 值2：  </span><br><span class="line">        语句体2;</span><br><span class="line">        break;         </span><br><span class="line">        …    </span><br><span class="line">    default：    </span><br><span class="line">        语句体n+1;        </span><br><span class="line">        [break;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>3.for循环语句</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for(int i&#x3D;1;i&lt;n;i++)&#123;</span><br><span class="line">    语句体；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>4.while 循环语句(如下，while执行语句体十次)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">int i&#x3D;1;</span><br><span class="line">while(i&lt;10)&#123;</span><br><span class="line">    语句体;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>.do while循环语句</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">初始化语句; </span><br><span class="line">do &#123; </span><br><span class="line">    循环体语句; </span><br><span class="line">    条件控制语句; </span><br><span class="line">   &#125;while(条件判断语句);</span><br></pre></td></tr></table></figure>
-<h2 id="常用的基本方法"><a href="#常用的基本方法" class="headerlink" title="常用的基本方法"></a>常用的基本方法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">equals()    	比较字符串内字符</span><br><span class="line">equalsIgnore()  忽略大小写并比较字符串内字符</span><br><span class="line">charAt(int index)  	  根据index获取字符串里的一个字，遍历字符串可以用到</span><br><span class="line">toCharArray()       把字符串转为字符数组</span><br><span class="line">1.String substring(int beginIndex)	从beginIndex索引位置开始截取到最后</span><br><span class="line">2.String substring(int beginIndex,int endIndex)	</span><br><span class="line">从beginIndex索引位置开始截取，截取到endIndex ，含头不含尾</span><br><span class="line">replace(A,B)	A替换B</span><br><span class="line">split(&quot;,&quot;)	按照&quot;，&quot;的规则进行切割（即逗号为分割符）</span><br><span class="line">**StringBuilder** 中常用的方法</span><br><span class="line">append()    向容器添加数据，链式编程</span><br><span class="line">reverse()	反转数据</span><br><span class="line">length()    获取长度</span><br><span class="line">toString()	转换为String类型数据</span><br><span class="line">集合的增删改查:</span><br><span class="line">list.add remove set get size </span><br></pre></td></tr></table></figure>
-<p><strong>private</strong> 关键字</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">是一个权限修饰符,可以修饰成员（成员变量和成员方法）,被private修饰的成员只能在**本类**中才能访问</span><br><span class="line">针对private修饰的成员变量，如果需要被其他类使用，提供相应的“get变量名()”方法，用于获取成员变量的值，方法用**public**修饰,提供“set变量名(参数)”方法，用于设置成员变量的值，方法用**public**修饰.</span><br></pre></td></tr></table></figure>
-<p><strong>this</strong> 关键字</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">用于区分成员变量和局部变量 使用哪个对象调用，那么this就指向这个对象</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="I-O-流"><a href="#I-O-流" class="headerlink" title="I/O 流"></a>I/O 流</h2><p><strong>概念</strong><br><strong>字节流</strong><br><strong>缓冲字节流</strong><br><strong>字符流</strong><br><strong>缓冲字符流</strong><br><strong>对象操作流</strong></p>
-<h2 id="多线程"><a href="#多线程" class="headerlink" title="多线程"></a>多线程</h2><p><strong>概念</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">是指从软件或者硬件上实现多个线程并发执行的技术。</span><br><span class="line">具有多线程能力的计算机因有硬件支持而能够在同一时间执行多个线程，提升性能。</span><br></pre></td></tr></table></figure>
-<p><strong>并行与并发</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">并行：在同一时刻，有多个指令在多个CPU上**同时**执行。</span><br><span class="line">并发：在同一时刻，有多个指令在单个CPU上*交替*执行。</span><br></pre></td></tr></table></figure>
-<hr>
-
-    
-
-    
-    <div class="page-reward">
-      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
-        <div class="tooltip tooltip-east">
-          <span class="tooltip-item">
-            赏
-          </span>
-          <span class="tooltip-content">
-            <span class="tooltip-text">
-              <span class="tooltip-inner">
-                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
-                    class="icon icon-quo-right"></i></p>
-                <div class="reward-box">
-                  
-                  
-                  <div class="reward-box-item">
-                    <img class="reward-img" src="/img/wechat2.jpg">
-                    <span class="reward-type">微信</span>
-                  </div>
-                  
-                </div>
-              </span>
-            </span>
-          </span>
         </div>
-      </a>
-    </div>
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">java,基础</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-
-    
-    
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a> -->
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
-        </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/02/25/java%E5%9F%BA%E7%A1%80%E5%8F%8A%E9%83%A8%E5%88%86%E8%AF%AD%E6%B3%95/" alt="微信分享二维码"> -->
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-
-    
-    <div class="clearfix"></div>
-  </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-
-<nav id="article-nav">
-  
-    <a href="/2019/04/08/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84java%E5%AE%9E%E7%8E%B0/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          基础数据结构java实现
-        
-      </div>
-    </a>
   
   
-    <a href="/2019/02/25/%E5%9F%BA%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">基于hexo框架搭建博客</div>
-      <i class="icon-circle-right"></i>
-    </a>
+    </div></section>
   
-</nav>
 
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-
-
-
-
-  <div id="giteement-ctn"></div>
-  
-    <link rel="stylesheet" href="/lib/default.css">
-    <script src="/lib/giteement.browser.js"></script>
-  
-  <script>
-  <!-- id: "java基础及部分语法" -->
-  var giteement = new Giteement({
-    id: '20190225181447',
-    owner: '',
-    repo: '',
-    backcall_uri: '',
-    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
-    oauth: {
-      client_id: '',
-      client_secret: ''
-    },
-  })
-  giteement.render('giteement-ctn')
-  </script>
-
-
-
-
-
-
+    
 
 
           </div>
@@ -490,8 +278,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
